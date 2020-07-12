@@ -236,7 +236,7 @@ body {
 }
 
 #work-container .card .card-img-top {
-  height: 10em;
+  max-height: 10em;
   margin: 0;
   -o-object-fit: cover;
      object-fit: cover;
