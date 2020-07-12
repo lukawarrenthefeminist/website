@@ -4,6 +4,7 @@ let score = document.querySelector("#score");
 
 let result = 0;
 let hitPosition = 0;
+var hit = false;
 
 function randomSquare(){
     gridItems.forEach(className => {
@@ -14,13 +15,15 @@ function randomSquare(){
     randomPosition.classList.add("mole");
 
     hitPosition = randomPosition.id;
+    hit = false;
 }
 
 gridItems.forEach(item => {
     item.addEventListener('mouseup', () => {
-        if(item.id === hitPosition){
+        if(item.id === hitPosition && !hit){
             result += 1;
             score.textContent = result;
+            hit = true;
         }
     })
 });
@@ -28,4 +31,3 @@ gridItems.forEach(item => {
 setInterval(function(){
     randomSquare()
 }, 1000);
-
