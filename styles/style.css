@@ -337,4 +337,12 @@ h2 {
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 575.98px) { 
+  #whack-a-luka {
+    grid-template-columns: auto;
+  }
+ }
+
+ 
 /*# sourceMappingURL=style.css.map */
