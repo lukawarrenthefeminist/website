@@ -327,6 +327,11 @@ h2 {
 }
 
 .mole {
+  background-image: url("https://cdn.discordapp.com/attachments/729043494026477568/732642457979846706/Screenshot_2020-07-14_at_17.59.28.png");
+  background-size: cover;
+}
+
+.moleHIT {
   background-image: url("https://cdn.discordapp.com/attachments/729043494026477568/731955484378136662/Screenshot_2020-07-12_at_20.29.39.png");
   background-size: cover;
 }
@@ -338,11 +343,11 @@ h2 {
   align-items: center;
 }
 
-@media (max-width: 575.98px) { 
+@media (max-width: 575.98px) {
   #whack-a-luka {
     grid-template-columns: auto;
   }
  }
 
- 
+
 /*# sourceMappingURL=style.css.map */
