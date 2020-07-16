@@ -315,6 +315,7 @@ h2 {
   grid-template-columns: auto auto auto;
   justify-content: space-around;
   align-content: center;
+  cursor: url('../images/ban.png'), auto;
 }
 
 .grid-item {
